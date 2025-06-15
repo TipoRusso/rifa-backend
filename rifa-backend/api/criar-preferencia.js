@@ -24,9 +24,9 @@ export default async function handler(req, res) {
         unit_price: parseFloat(unit_price)
       }],
       back_urls: {
-        success: 'https://6000-firebase-studio-1749902886286.cluster-duylic2g3fbzerqpzxxbw6helm.cloudworkstations.dev/sucesso',
-        failure: 'https://6000-firebase-studio-1749902886286.cluster-duylic2g3fbzerqpzxxbw6helm.cloudworkstations.dev/falha',
-        pending: 'https://6000-firebase-studio-1749902886286.cluster-duylic2g3fbzerqpzxxbw6helm.cloudworkstations.dev/pendente'
+        success: 'notification_url: "https://idx-studio-653022078-ok5eumfidq-vp.a.run.app/webhook/sucesso',
+        failure: 'notification_url: "https://idx-studio-653022078-ok5eumfidq-vp.a.run.app/webhook/falha',
+        pending: 'notification_url: "https://idx-studio-653022078-ok5eumfidq-vp.a.run.app/webhook/pendente'
       },
       auto_return: 'approved',
       notification_url: 'https://rifa-backend.vercel.app/api/webhook'
