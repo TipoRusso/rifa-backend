@@ -1,0 +1,9 @@
+{
+  "name": "rifa-backend",
+  "version": "1.0.0",
+  "type": "module",
+  "dependencies": {
+    "mercadopago": "^1.15.0",
+    "firebase-admin": "^11.10.1"
+  }
+}
