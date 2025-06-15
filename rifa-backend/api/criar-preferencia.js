@@ -24,12 +24,12 @@ export default async function handler(req, res) {
         unit_price: parseFloat(unit_price)
       }],
       back_urls: {
-        success: 'https://seusite.com/sucesso',
-        failure: 'https://seusite.com/falha',
-        pending: 'https://seusite.com/pendente'
+        success: 'https://6000-firebase-studio-1749902886286.cluster-duylic2g3fbzerqpzxxbw6helm.cloudworkstations.dev/sucesso',
+        failure: 'https://6000-firebase-studio-1749902886286.cluster-duylic2g3fbzerqpzxxbw6helm.cloudworkstations.dev/falha',
+        pending: 'https://6000-firebase-studio-1749902886286.cluster-duylic2g3fbzerqpzxxbw6helm.cloudworkstations.dev/pendente'
       },
       auto_return: 'approved',
-      notification_url: 'https://seuprojeto.vercel.app/api/webhook'
+      notification_url: 'https://rifa-backend.vercel.app/api/webhook'
     });
 
     return res.status(200).json({ init_point: preference.body.init_point });
